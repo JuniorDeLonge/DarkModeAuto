@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-    font-size: 5vw; /* Usando vw para tornar o tamanho relativo à largura da viewport */
+    font-size: 7vw; /* Usando vw para tornar o tamanho relativo à largura da viewport */
     font-weight: 700;
     line-height: 1;
     margin-bottom: 0.5em;
@@ -43,11 +43,11 @@ p {
     }
 
     h1 {
-        font-size: 4.5vw;
+        font-size: 18vw;
     }
 
     p {
-        font-size: 2.5vw;
+        font-size: 10vw;
     }
 }
 
