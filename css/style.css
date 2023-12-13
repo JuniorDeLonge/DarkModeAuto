@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    max-width: 900px;
+    padding: 2em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+    transition:
+        background-color 0.2s,
+        color 0.2s;
+}
+
+.main-container {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.title-section h1,
+.how-it-works-section h2,
+.customization-section h2,
+.energy-saving-section h2,
+.smooth-transitions-section h2,
+.total-compatibility-section h2,
+.developer-info-section h2 {
+    font-size: 5vw;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1em;
+    color: rgb(255, 0, 43);
+}
+
+.title-section p,
+.how-it-works-section p,
+.customization-section p,
+.energy-saving-section p,
+.smooth-transitions-section p,
+.total-compatibility-section p,
+.developer-info-section p {
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 1em;
+
+    color: rgb(34, 34, 34);
+}
+
+.instagram-link,
+.dark-mode .instagram-link {
+    color: rgb(255, 0, 43);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+body.dark-mode {
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode .title-section h1,
+.dark-mode .how-it-works-section h2,
+.dark-mode .customization-section h2,
+.dark-mode .energy-saving-section h2,
+.dark-mode .smooth-transitions-section h2,
+.dark-mode .total-compatibility-section h2,
+.dark-mode .developer-info-section h2 {
+    color: rgb(0, 255, 115);
+}
+
+.dark-mode .title-section p,
+.dark-mode .how-it-works-section p,
+.dark-mode .customization-section p,
+.dark-mode .energy-saving-section p,
+.dark-mode .smooth-transitions-section p,
+.dark-mode .total-compatibility-section p,
+.dark-mode .developer-info-section p {
+    color: rgb(228, 228, 228);
+}
+
+.dark-mode .instagram-link {
+    color: rgb(255, 51, 102);
+}
