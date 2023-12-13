@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    transition:
+        background-color 0.2s,
+        color 0.2s;
+}
+
+.container {
+    min-height: 50vh;
+    width: 80vw;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.title-section h1,
+.how-it-works-section h2,
+.customization-section h2,
+.energy-saving-section h2,
+.smooth-transitions-section h2,
+.total-compatibility-section h2,
+.developer-info-section h2 {
+    font-size: 2.8em;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1em;
+    color: rgb(255, 0, 43);
+}
+
+.title-section p,
+.how-it-works-section p,
+.customization-section p,
+.energy-saving-section p,
+.smooth-transitions-section p,
+.total-compatibility-section p,
+.developer-info-section p {
+    font-size: 1.7em;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 1em;
+    color: rgb(34, 34, 34);
+}
+
+.instagram-link,
+.dark-mode .instagram-link {
+    font-weight: 400;
+}
+
+.instagram-link,
+.dark-mode .instagram-link {
+    color: rgb(255, 0, 43);
+    text-decoration: none;
+}
+
+body.dark-mode {
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode .title-section h1,
+.dark-mode .how-it-works-section h2,
+.dark-mode .customization-section h2,
+.dark-mode .energy-saving-section h2,
+.dark-mode .smooth-transitions-section h2,
+.dark-mode .total-compatibility-section h2,
+.dark-mode .developer-info-section h2 {
+    color: rgb(0, 255, 115);
+}
+
+.dark-mode .title-section p,
+.dark-mode .how-it-works-section p,
+.dark-mode .customization-section p,
+.dark-mode .energy-saving-section p,
+.dark-mode .smooth-transitions-section p,
+.dark-mode .total-compatibility-section p,
+.dark-mode .developer-info-section p {
+    color: rgb(228, 228, 228);
+}
+
+.dark-mode .instagram-link {
+    color: rgb(255, 51, 102);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 51, 102);
+}
+
+.dark-mode::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 255, 115);
+}
+
+::-ms-scrollbar {
+    width: 5px;
+}
+
+::-ms-thumb {
+    background-color: rgb(255, 51, 102);
+}
+.dark-mode::-ms-thumb {
+    background-color: rgb(0, 255, 115);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90vw;
+    }
+
+    .title-section h1,
+    .how-it-works-section h2,
+    .customization-section h2,
+    .energy-saving-section h2,
+    .smooth-transitions-section h2,
+    .total-compatibility-section h2,
+    .developer-info-section h2 {
+        font-size: 1.7em;
+        margin-bottom: 0.8em;
+        line-height: 1;
+    }
+
+    .title-section p,
+    .how-it-works-section p,
+    .customization-section p,
+    .energy-saving-section p,
+    .smooth-transitions-section p,
+    .total-compatibility-section p,
+    .developer-info-section p {
+        font-size: 1em;
+        margin-bottom: 0.8em;
+        line-height: 1;
+    }
+}
