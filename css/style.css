@@ -6,7 +6,7 @@
 }
 
 body {
-    max-width: 900px;
+    max-width: 90%;
     padding: 2em;
     margin: 0 auto;
     display: flex;
@@ -14,13 +14,11 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(247, 247, 247);
-    transition:
-        background-color 0.2s,
-        color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .main-container {
-    height: 100vh;
+    min-height: 100vh;
     overflow-y: auto;
 }
 
@@ -31,7 +29,7 @@ body {
 .smooth-transitions-section h2,
 .total-compatibility-section h2,
 .developer-info-section h2 {
-    font-size: 5vw;
+    font-size: 3em;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 1em;
@@ -45,11 +43,10 @@ body {
 .smooth-transitions-section p,
 .total-compatibility-section p,
 .developer-info-section p {
-    font-size: 2.5vw;
+    font-size: 1.5em;
     font-weight: 300;
     line-height: 1;
     margin-bottom: 1em;
-
     color: rgb(34, 34, 34);
 }
 
@@ -87,4 +84,29 @@ body.dark-mode {
 
 .dark-mode .instagram-link {
     color: rgb(255, 51, 102);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 1em;
+        margin: 1em;
+    }
+
+    .title-section h1 {
+        font-size: 4em;
+    }
+
+    .title-section p {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title-section h1 {
+        font-size: 3em;
+    }
+
+    .title-section p {
+        font-size: 1.5em;
+    }
 }
