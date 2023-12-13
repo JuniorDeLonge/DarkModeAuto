@@ -90,30 +90,38 @@ body.dark-mode {
 
 @media screen and (max-width: 768px) {
     body {
-        padding: 4em;
-        margin: 4em;
+        padding: 2em;
+        margin: 2em;
     }
 
     .title-section h1 {
         font-size: 4em;
+        line-height: 1;
+        margin-bottom: 1em;
     }
 
     .title-section p {
         font-size: 2em;
+        line-height: 1;
+        margin-bottom: 1em;
     }
 }
 
 @media screen and (max-width: 480px) {
     body {
-        padding: 3em;
-        margin: 3em;
+        padding: 2em;
+        margin: 2em;
     }
 
     .title-section h1 {
-        font-size: 3em;
+        font-size: 2.5em;
+        line-height: 1;
+        margin-bottom: 1em;
     }
 
     .title-section p {
-        font-size: 1.5em;
+        font-size: 1.2em;
+        line-height: 1;
+        margin-bottom: 1em;
     }
 }
