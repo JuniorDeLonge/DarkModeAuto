@@ -8,6 +8,7 @@
 body {
     max-width: 90%;
     padding: 2em;
+    min-height: auto;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -54,9 +55,13 @@ body {
 
 .instagram-link,
 .dark-mode .instagram-link {
+    font-weight: 400;
+}
+
+.instagram-link,
+.dark-mode .instagram-link {
     color: rgb(255, 0, 43);
     text-decoration: none;
-    font-weight: 400;
 }
 
 body.dark-mode {
@@ -92,18 +97,6 @@ body.dark-mode {
     body {
         padding: 2em;
         margin: 2em;
-    }
-
-    .title-section h1 {
-        font-size: 2.5em;
-        line-height: 1;
-        margin-bottom: 1em;
-    }
-
-    .title-section p {
-        font-size: 1.2em;
-        line-height: 1;
-        margin-bottom: 1em;
     }
 }
 
